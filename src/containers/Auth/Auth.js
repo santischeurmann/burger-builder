@@ -95,7 +95,7 @@ class Auth extends Component {
     switchAuthModeHandler = () => {
         this.setState(prevState => {
             return {isSignUp: !prevState.isSignUp};
-        })
+        });
     }
 
     render () {
