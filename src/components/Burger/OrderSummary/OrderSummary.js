@@ -3,10 +3,6 @@ import Auxilliary from '../../../hoc/Auxilliary/Auxilliary';
 import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
-    UNSAFE_componentWillUpdate() {
-        console.log('[OrderSummary] WillUpdate');
-    }
-    
     render () {
         
         const ingredientSummary = Object.keys(this.props.ingredients)
